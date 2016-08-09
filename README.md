@@ -1,3 +1,3 @@
 # Python
 
-Here's a good placee to store useful code!!!
+Here's a good place to store useful code!!!
