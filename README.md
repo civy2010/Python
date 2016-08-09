@@ -2,9 +2,9 @@
 Here's a good place to store useful Python code!!! All code based on Python 3.4
 
 
-Glossary:
 bug: An error in a program.
-central processing unit: The heart of any computer. It is what runs the software that we write; also called “CPU” or “the processor”.
+central processing unit: The heart of any computer. It is what runs the software
+that we write; also called “CPU” or “the processor”.
 compile: To translate a program written in a high-level language into a low-level
 language all at once, in preparation for later execution.
 high-level language: A programming language like Python that is designed to be
