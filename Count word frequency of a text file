@@ -1,1 +1,17 @@
-filename=input('Enter file:')
+
+filename=input('Enter file:') ### to input file path
+handle=open(filename,'r')
+text=handle.read()
+words=text.split()
+counts={}
+for word in words:
+  counts[word]=counts.get(word,0) +1
+bigcount=None
+bigword=None
+for word,count in counts.items():
+  if bigcount is None or count >bigcount:
+    bigword=word
+    bigcount=count
+    
+print(counts) # get all word frequency
+print(bigword,bigcount) # get most common word
