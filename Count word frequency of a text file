@@ -5,7 +5,7 @@ text=handle.read()
 words=text.split()
 counts={}
 for word in words:
-  counts[word]=counts.get(word,0) +1
+  counts[word]=counts.get(word,0) +1 #The method get() returns a value for the given key. If key is not available then returns default value(which is 0 here).
 bigcount=None
 bigword=None
 for word,count in counts.items():
